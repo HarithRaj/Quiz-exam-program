@@ -3,7 +3,7 @@ import time
 q=[]
 end_time=[]
 score=0
-answer=["11","0","True","True","24"]
+answer=["a","d","b","c","c"]
 
 def func(seconds):
     while seconds>0:
@@ -21,34 +21,38 @@ def func1(seconds):
             print("You can start your exam Now!")
 
 func(5)
+print("INSTRUCTIONS")
+print("1. TOTAL 5 QUESTIONS.")
+print("2. YOU HAVE TOTAL 25 SECONDS FOR ALL QUESTIONS.")
+print("3. IF TAKE MORE THAN 25 SECONDS, ANSWER WILL NOT BE CONSIDERED FOR VALUATION.")
 print("Your Exam will start with in")
 func1(10)
 
-timeout=20
+timeout=25
 
 start_time=time.time()
 
-a=input("Question 1: What is the Next Prime Number after 7 =")
+a=input("Question 1: What is the Next Prime Number after 7 \na) 11\t\tb) 13\nc) 15\t\td) 19\nAnswer=")
 q.append(a)
 end_time_a=time.time()
 end_time.append(end_time_a)
 
-b=input("Question 2: The Product of 131*0*300*4 =")
+b=input("Question 2: The Product of 131*0*300*4 \na) 1\t\tb) 131\nc) 10\t\td) 0\nAnswer=")
 q.append(b)
 end_time_b=time.time()
 end_time.append(end_time_b)
 
-c=input("Question 3: List is Muttable(True/False) =")
+c=input("If we minus 712 from 1500, how much do we get? \na) 778\t\tb) 788\nc) 768\t\td) 758\nAnswer=")
 q.append(c)
 end_time_c=time.time()
 end_time.append(end_time_c)
 
-d=input("Question 4: tuple is immuttable(True/False) =")
+d=input("Find the missing terms in multiple of 3: 3, 6, 9, __, 15 \na) 10\t\tb) 11\nc) 12\t\td) 13\nAnswer=")
 q.append(d)
 end_time_d=time.time()
 end_time.append(end_time_d)
 
-e=input("Question 5: Solve 23+3÷3=")
+e=input("Question 5: Solve 23+3÷3= \na) 0\t\tb) 27/3\nc) 24\t\td) 13\nAnswer=")
 q.append(e)
 end_time_e=time.time()
 end_time.append(end_time_e)
