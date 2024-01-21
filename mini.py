@@ -21,10 +21,14 @@ def func1(seconds):
             print("You can start your exam Now!")
 
 func(5)
+
 print("INSTRUCTIONS")
+print("READ INSTRUCTIONS CAREFULLY")
 print("1. TOTAL 5 QUESTIONS.")
 print("2. YOU HAVE TOTAL 25 SECONDS FOR ALL QUESTIONS.")
-print("3. IF TAKE MORE THAN 25 SECONDS, ANSWER WILL NOT BE CONSIDERED FOR VALUATION.")
+print("3. IF YOU TAKE MORE THAN 25 SECONDS,THE ANSWERS AFTER 25 SECONDS WILL NOT BE CONSIDERED FOR VALUATION.")
+input('Press ENTER KEY to START EXAM')
+
 print("Your Exam will start with in")
 func1(10)
 
